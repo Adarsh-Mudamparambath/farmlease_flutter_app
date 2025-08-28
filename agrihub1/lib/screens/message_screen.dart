@@ -1,13 +1,11 @@
 import 'package:agrihub1/resources/message_method.dart';
 import 'package:agrihub1/screens/message_content.dart';
 import 'package:agrihub1/screens/message_send_screen.dart';
-import 'package:agrihub1/widgets/message_card.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
 class MessageScreen extends StatefulWidget {
-  const MessageScreen({super.key, Key? key});
+  const MessageScreen({super.key});
 
   @override
   State<MessageScreen> createState() => _MessageScreenState();

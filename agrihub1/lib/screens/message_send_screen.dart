@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class MessageSendScreen extends StatelessWidget {
-  const MessageSendScreen({super.key, Key? key});
+  const MessageSendScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

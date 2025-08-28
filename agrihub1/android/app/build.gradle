@@ -24,11 +24,11 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.example.app" // your package
+    namespace "com.example.agrihub1"  // <-- add this
     compileSdkVersion 34
 
     defaultConfig {
-        applicationId "com.example.app"
+        applicationId "com.example.agrihub1"
         minSdkVersion flutter.minSdkVersion
         targetSdkVersion 34
         versionCode 1
@@ -39,6 +39,7 @@ android {
         buildConfig = true
     }
 }
+
 
 flutter {
     source "../.."

@@ -1,5 +1,5 @@
 buildscript {
-    ext.kotlin_version = "2.1.0"
+    ext.kotlin_version = '1.9.23'  // not 2.x, Kotlin 2.x doesn't exist yet
     repositories {
         google()
         mavenCentral()
@@ -10,6 +10,7 @@ buildscript {
         classpath "com.google.gms:google-services:4.4.2"
     }
 }
+
 
 allprojects {
     repositories {
