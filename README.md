@@ -24,4 +24,4 @@ This project helps connect farmers with landowners and provides a platform to sh
 ### Installation
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/agriculture_app_flutter.git
+   git clone https://github.com/Adarsh-Mudamparambath/agriculture_app_flutter.git
